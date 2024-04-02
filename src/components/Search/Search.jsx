@@ -1,6 +1,6 @@
 import React from "react";
 import InputBase from "@mui/material/InputBase";
-import SearchIcon from "@mui/icons-material/Search";
+import SearchIcon from "../../assets/SearchIcon.svg";
 
 const MinimalistSearchBar = () => {
   return (

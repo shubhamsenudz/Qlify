@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css";
+import "../../App";
 import Grid from "@mui/material/Grid";
 import Headphone from "../../assets/vibratingHeadphone.svg";
 

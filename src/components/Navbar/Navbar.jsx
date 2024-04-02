@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../src/App";
+import "../../../src/App.css";
 import MinimalistSearchBar from "../Search/Search";
 import Logo from "../Logo";
 import CustomButton from "../Button/Button";

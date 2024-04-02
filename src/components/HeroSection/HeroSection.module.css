@@ -3,10 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
   color: #fff;
-  /* background-color: bisque; */
+  background-color: var(--background-color); 
+  width: 100%; 
 }
+
 .HeroText {
   text-align: center;
   font-family: Poppins;
@@ -14,4 +15,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.HeadphoneImage {
+  width: 100px; 
+  height: auto; 
 }

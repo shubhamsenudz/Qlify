@@ -1,39 +1,16 @@
 import React from "react";
-import "../../../src/App.css";
-import Grid from "@mui/material/Grid";
-import Headphone from "../../assets/vibratingHeadphone.svg";
+import Styles from "./HeroSection.module.css";
+import { ReactComponent as VibratingHeadphone } from "../../assets/vibratingHeadphone.svg";
 
 const HeroSection = () => {
   return (
-    <Grid
-      container
-      spacing={2}
-      sx={{ backgroundColor: "black", color: "white", padding: "3rem" }}
-    >
-      <Grid item xs={12} sm={6}>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "end",
-            justifyContent: "flex-end",
-          }}
-        >
-          <h2>100 Thousand Songs, ad-free</h2>
-          <h2>Over thousands podcast episodes”</h2>
-        </div>
-      </Grid>
-
-      <Grid item xs={12} sm={6}>
-        <div>
-          <img
-            src={Headphone}
-            alt="Your"
-            style={{ width: "30%", height: "30%" }}
-          />
-        </div>
-      </Grid>
-    </Grid>
+    <div className={Styles.HeroContainer}>
+      <div className={Styles.HeroText}>
+        <div>100 Thousand Songs, ad-free</div>
+        <div>Over thousands podcast episodes</div>
+      </div>
+      <VibratingHeadphone className={Styles.HeadphoneImage} />
+    </div>
   );
 };
 

@@ -1,8 +1,11 @@
-import React from "react";
+import React from 'react'
+import BrandLogo from "../../assets/BrandLogo.png"
+const Logo = () => {
+  return (
+    <div>
+        <img src={BrandLogo} alt='logo' width={67} />
+        </div>
+  )
+}
 
-//Imported the Image alias
-import Picture from "../../assets/BrandLogo.png";
-
-const Logo = () => <img src={Picture} alt="logo" width="100vw" height="50vh" />;
-
-export default Logo;
+export default Logo

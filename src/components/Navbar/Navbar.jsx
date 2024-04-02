@@ -1,8 +1,8 @@
 import React from "react";
-import "../App.css";
-import MinimalistSearchBar from "./SearchBar";
-import Logo from "./Logo";
-import CustomButton from "./CustomButton";
+import "../../App.css";
+import MinimalistSearchBar from "../Search/Search";
+import Logo from "../Logo";
+import CustomButton from "../Button/Button";
 import { Grid } from "@mui/material";
 
 const Navbar = () => {

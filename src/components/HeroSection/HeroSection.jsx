@@ -3,7 +3,7 @@ import "../App.css";
 import Grid from "@mui/material/Grid";
 import Headphone from "../assets/headphone.png";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <Grid
       container
@@ -37,4 +37,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;

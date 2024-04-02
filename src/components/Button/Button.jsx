@@ -7,4 +7,3 @@ export const Button = ({children}) => {
   )
 }
 export default Button
-s

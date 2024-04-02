@@ -5,17 +5,12 @@ import SearchBar from "../Search/Search";
 import Button from "../Button/Button";
 
 const Navbar = () => {
-
     return (
-        <>
-            <nav className={styles.navbar}>
-                <Logo />
-                <SearchBar search={"Search a song of your choice"} />
-                <Button children={"Give Feedback"} />
-            </nav>
-
-        </>
-
+        <div className={styles.navbar}>
+            <Logo />
+            <SearchBar search={"Search a song of your choice"} />
+            <Button children={"Give Feedback"} />
+        </div>
     );
 }
 
